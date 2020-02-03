@@ -13,7 +13,6 @@ export default new Vuex.Store({
       state[prop] = val
     },
     setProjectSelection(state, { projectId, selectionState }) {
-      console.log(selectionState)
       if (state.selectedProjects[projectId])
         Vue.set(state.selectedProjects[projectId], 'selected', selectionState)
     },

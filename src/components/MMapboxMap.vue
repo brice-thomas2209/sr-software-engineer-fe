@@ -55,6 +55,8 @@ export default {
   computed: {
     ...mapState(['selectedProjects']),
     markersFilter() {
+      if (!Object.entries(this.selectedProjects).length) return
+
       return this.data.features.filter(
         f => this.selectedProjects[f.properties.id].selected
       )

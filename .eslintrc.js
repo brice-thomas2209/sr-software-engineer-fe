@@ -14,7 +14,10 @@ module.exports = {
         trailingComma: 'none'
       }
     ],
-    'no-unused-vars': ["error", {"varsIgnorePattern": "^_", "argsIgnorePattern": "^_" }],
+    'no-unused-vars': [
+      'error',
+      { varsIgnorePattern: '^_', argsIgnorePattern: '^_' }
+    ],
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     indent: ['error', 2],
     // allow paren-less arrow functions

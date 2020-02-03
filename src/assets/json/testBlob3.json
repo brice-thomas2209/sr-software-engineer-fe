@@ -1,0 +1,773 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"properties": {
+			"id": "7426971",
+			"project": {
+				"Project ID": "7426971",
+				"Title": "HELLENIC CLUB",
+				"Type": "RESTAURANT - altns & addns",
+				"Address": "238-240 Castlereagh St (Lot 1 DP187103)",
+				"Suburb": "SYDNEY",
+				"State": "New South Wales",
+				"Stage": "DA Approved",
+				"Category": "HOSPITALITY",
+				"SubCategory": "RESTAURANTS, CANTEENS",
+				"Status": "Possible",
+				"Council": "SYDNEY",
+				"Dev. Type": "Addition",
+				"Floor Area": "2042.000",
+				"Site Area": "567.690",
+				"Storeys": "0.000",
+				"Units": "0.000",
+				"Commence Date": "06\/05\/20",
+				"Completion Date": "06\/11\/21",
+				"Last Updated": "10\/09\/19",
+				"Value": "2720.000",
+				"Ownership": "PRIVATE",
+				"Description": "Alterations & additions of unused Levels 2-3 at the existing Australian Workers Union building & Hellenic Club restaurant. Level 1 - New cool room & freezer room to the mezzanine. Level 2 - New balcony in the existing void, new service bar & glass store, new water closets, new kitchen prep area & creation of Level 2 mezzanine with storerooms. Level 3 - Demolition of some existing external walls & 2 dilapidated trusses. Refurbishment & rehabilitation of 2 existing trusses. Creation of a service kitchen, lounge bar, boardroom, courtyard seating area & new water closets & 3 meeting rooms. Refurbishment & relocation of windows from the existing meeting room wall to the relocated meeting room. Creation of a Level 3 mezzanine with meeting room, office, water closet & staff change rooms. Roof - Install new plant equipment & lift services on the roof. Demolish existing central hipped roof & install glazed & operable skylights in the roof. Metal profiled sheet for wall cladding & roofing, aluminium flashings, window framing & gutters, glass panels & timber framed windows & doors.",
+				"Notes": "DEVELOPMENT APPROVAL (CONDITIONAL)",
+				"Additional Details": "Development Application Number D\/2019\/521.",
+				"Lat": -33.875305,
+				"Long": 151.209152
+			},
+			"color": "#26A31B"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [151.209152, -33.875305]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"id": "7426505",
+			"project": {
+				"Project ID": "7426505",
+				"Title": "CASTLEREAGH BOUTIQUE HOTEL & NSW MASONIC CLUB",
+				"Type": "BOUTIQUE HOTEL\/CLUB - altns",
+				"Address": "169-173 Castlereagh St (Lot 1 DP68635)",
+				"Suburb": "SYDNEY",
+				"State": "New South Wales",
+				"Stage": "DA Approved",
+				"Category": "HOSPITALITY",
+				"SubCategory": "CLUBS (LICENSED), LICENSED PREMISES, CASINOS, TAVERNS",
+				"Status": "Possible",
+				"Council": "SYDNEY",
+				"Dev. Type": "Renovation",
+				"Floor Area": "0.000",
+				"Site Area": "0.000",
+				"Storeys": "0.000",
+				"Units": "0.000",
+				"Commence Date": "08\/03\/20",
+				"Completion Date": "08\/02\/21",
+				"Last Updated": "09\/07\/19",
+				"Value": "980.000",
+				"Ownership": "PRIVATE",
+				"Description": "Alterations at the existing Castlereagh Boutique Hotel & NSW Masonic Club including repair of existing corroded external windows & installation of a double glazed window system.",
+				"Notes": "DEVELOPMENT APPROVAL (CONDITIONAL)",
+				"Additional Details": "Development Application Number D\/2019\/419.",
+				"Lat": -33.872566,
+				"Long": 151.208929
+			},
+			"color": "#26A31B"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [151.208929, -33.872566]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"id": "7425084",
+			"project": {
+				"Project ID": "7425084",
+				"Title": "RAPHAELS",
+				"Type": "RESTAURANT - altns & addns",
+				"Address": "8-18 Bent St & 41-43 Phillip St (Lot 104 DP836610)",
+				"Suburb": "SYDNEY",
+				"State": "New South Wales",
+				"Stage": "DA Approved",
+				"Category": "HOSPITALITY",
+				"SubCategory": "RESTAURANTS, CANTEENS",
+				"Status": "Firm",
+				"Council": "SYDNEY",
+				"Dev. Type": "Addition",
+				"Floor Area": "0.000",
+				"Site Area": "5456.000",
+				"Storeys": "0.000",
+				"Units": "0.000",
+				"Commence Date": "24\/03\/20",
+				"Completion Date": "24\/09\/20",
+				"Last Updated": "10\/09\/19",
+				"Value": "380.000",
+				"Ownership": "PRIVATE",
+				"Description": "Alterations & additions to Basement level 1 of the existing commercial building courtyard for use as a licensed restaurant. External works - Signage fixed to the top of the existing kiosk, installation of stools fixed into the ground surrounding kiosk & alterations to existing kiosk including installation of new benchtop & metal facade linings. Internal works - Removal of 6 doors to be kept on site for future use, removal of cover boards to fireplace openings, installation of 10 stud walls to the perimeter of various walls within both 41 & 43 Phillip Street basements, installation of terrazzo floor tiles to 41 Phillip Street basement, installation of timber floating floor to 43 Phillip Street basement, installation of new commercial grade kitchen to rear wing of 43 Phillip Street basement & fitout of existing kiosk to accommodate licensed bar.",
+				"Notes": "CONSTRUCTION CERTIFICATE APPROVAL  BUILDER NAMED  NO FIRM TIMEFRAME FOR PROJECT TO PROCEED",
+				"Additional Details": "Development Application Number D\/2019\/193.",
+				"Lat": -33.864279,
+				"Long": 151.211341
+			},
+			"color": "#26A31B"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [151.211341, -33.864279]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"id": "7422978",
+			"project": {
+				"Project ID": "7422978",
+				"Title": "WESTPAC PLACE",
+				"Type": "COMMERCIAL BUILDING - altns & addns",
+				"Address": "271-275 Kent St (Lots 108 & 109 DP1174125)",
+				"Suburb": "SYDNEY",
+				"State": "New South Wales",
+				"Stage": "DA Pending",
+				"Category": "COMMERCIAL PREMISES",
+				"SubCategory": "COMMERCIAL COMPLEXES - SHOPS, OFFICES",
+				"Status": "Possible",
+				"Council": "SYDNEY",
+				"Dev. Type": "Addition",
+				"Floor Area": "670.000",
+				"Site Area": "1648.000",
+				"Storeys": "0.000",
+				"Units": "0.000",
+				"Commence Date": "17\/01\/20",
+				"Completion Date": "17\/01\/23",
+				"Last Updated": "22\/05\/19",
+				"Value": "6139.000",
+				"Ownership": "PRIVATE",
+				"Description": "Proposed alterations & additions at the existing Westpac Place commercial building. Removal of existing shopfront glazing & facade cladding. Introduction of new stone cladding, retail windows & metal cladding. Introduction of new shopfront windows, planters & covered pergolas for the 2 internal walkways from Sussex Lane to the Urban Park. Introduction of new covered pergola north of new retail tenancy R12. Removal & replacement of existing shopfront glazing & facade cladding. Public domain works including replacing asphalt paving in Sussex Lane in accordance with the City of Sydney standards & specifications. Metal cladding & natural glass glazing. Associated landscaping.",
+				"Notes": "DEVELOPMENT APPLICATION SUBMITTED",
+				"Additional Details": "Development Application Number D\/2019\/504. Construction timeframe is a research estimate only & subject to council approvals & other factors.\r",
+				"Lat": -33.867009,
+				"Long": 151.204732
+			},
+			"color": "#E9DF00"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [151.204732, -33.867009]
+		}
+	},{
+		"type": "Feature",
+		"properties": {
+			"id": "7463184",
+			"project": {
+				"Project ID": "7463184",
+				"Title": "LANDMARK BUILDING",
+				"Type": "OFFICES - 2 storey - altns & addns",
+				"Address": "345-355 George St (Lot 1 DP1006536, Lots 1 & 2 DP1010007 & Lots 1-7 SP62101)",
+				"Suburb": "SYDNEY",
+				"State": "New South Wales",
+				"Stage": "DA Pending",
+				"Category": "COMMERCIAL PREMISES",
+				"SubCategory": "OFFICES",
+				"Status": "Possible",
+				"Council": "SYDNEY",
+				"Dev. Type": "Addition",
+				"Floor Area": "53957.000",
+				"Site Area": "1617.000",
+				"Storeys": "2.000",
+				"Units": "0.000",
+				"Commence Date": "06\/09\/20",
+				"Completion Date": "06\/09\/23",
+				"Last Updated": "13\/09\/19",
+				"Value": "12760.000",
+				"Ownership": "PRIVATE",
+				"Description": "Proposed alterations & additions to the roof level at the existing Landmark Building. Demolition of part of the existing plant room & relocation of existing mechanical & hydraulic services. 2 storey addition comprising new Level 18 & mezzanine level office spaces (900sq m). These 2 levels will be connected via an internal staircase. Roof terrace with associated landscaping. Connecting lift between Level 18 & the mezzanine & extension of the existing lift shaft. Powdercoated aluminium cladding, vertical louvres, clear glazed balustrade & plant enclosure acoustic screen.",
+				"Notes": "DEVELOPMENT APPLICATION SUBMITTED",
+				"Additional Details": "Development Application Number D\/2019\/989. Construction timeframe is a research estimate only & subject to council approvals & other factors.",
+				"Lat": -33.867935,
+				"Long": 151.206718
+			},
+			"color": "#E9DF00"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [151.206718, -33.867935]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"id": "7463208",
+			"project": {
+				"Project ID": "7463208",
+				"Title": "PRIMUS HOTEL SYDNEY",
+				"Type": "BAR - altns & addns",
+				"Address": "115-119 Bathurst St & 339 Pitt St",
+				"Suburb": "SYDNEY",
+				"State": "New South Wales",
+				"Stage": "DA Pending",
+				"Category": "HOSPITALITY",
+				"SubCategory": "CLUBS (LICENSED), LICENSED PREMISES, CASINOS, TAVERNS",
+				"Status": "Possible",
+				"Council": "SYDNEY",
+				"Dev. Type": "Addition",
+				"Floor Area": "0.000",
+				"Site Area": "0.000",
+				"Storeys": "0.000",
+				"Units": "0.000",
+				"Commence Date": "22\/08\/20",
+				"Completion Date": "22\/04\/21",
+				"Last Updated": "13\/09\/19",
+				"Value": "500.000",
+				"Ownership": "PRIVATE",
+				"Description": "Proposed alterations & additions to Level 7 rooftop bar at the existing Primus Hotel Sydney. Partial demolition & extension of the existing awning & refurbishment of the existing bar unit, seating & plants.",
+				"Notes": "DEVELOPMENT APPLICATION SUBMITTED",
+				"Additional Details": "Development Application Number D\/2019\/918. Construction timeframe is a research estimate only & subject to council approvals & other factors.",
+				"Lat": -33.874883,
+				"Long": 151.207605
+			},
+			"color": "#E9DF00"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [151.207605, -33.874883]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"id": "7463169",
+			"project": {
+				"Project ID": "7463169",
+				"Title": "R&F CATHERING",
+				"Type": "TRAINING FACILITY\/CONFERENCE CENTRE - fitout",
+				"Address": "101-109 York St",
+				"Suburb": "SYDNEY",
+				"State": "New South Wales",
+				"Stage": "DA Pending",
+				"Category": "HOSPITALITY",
+				"SubCategory": "CONFERENCE & RECEPTION CENTRES & FACILITIES",
+				"Status": "Possible",
+				"Council": "SYDNEY",
+				"Dev. Type": "Renovation",
+				"Floor Area": "0.000",
+				"Site Area": "0.000",
+				"Storeys": "0.000",
+				"Units": "0.000",
+				"Commence Date": "11\/02\/20",
+				"Completion Date": "11\/08\/20",
+				"Last Updated": "13\/09\/19",
+				"Value": "1145.000",
+				"Ownership": "PRIVATE",
+				"Description": "Proposed internal fitout of the existing restaurant for use as development training facility, seminars & conference centre accommodating up to 160 attendees.",
+				"Notes": "DEVELOPMENT APPLICATION SUBMITTED",
+				"Additional Details": "Development Application Number D\/2019\/1009. Construction timeframe is a research estimate only & subject to council approvals & other factors.",
+				"Lat": -33.870495,
+				"Long": 151.205863
+			},
+			"color": "#E9DF00"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [151.205863, -33.870495]
+		}
+	}],
+	"analytics": {
+		"total": 277,
+		"lineCharts": [{
+			"rawCount": 107,
+			"label": "DA Approved",
+			"percentage": "38%",
+			"color": "#26A31B"
+		}, {
+			"rawCount": 20,
+			"label": "DA Pending",
+			"percentage": "7%",
+			"color": "#E9DF00"
+		}, {
+			"rawCount": 134,
+			"label": "Construction",
+			"percentage": "48%",
+			"color": "#ECAF2D"
+		}, {
+			"rawCount": 1,
+			"label": "DA Refused",
+			"percentage": "0%",
+			"color": "#AC5A5A"
+		}, {
+			"rawCount": 15,
+			"label": "Other",
+			"percentage": "5%",
+			"color": "#B3BFC5"
+		}],
+		"barCharts": [{
+			"bins": [{
+				"min": 95000,
+				"max": 29031516,
+				"count": 228,
+				"isMedian": true
+			}, {
+				"min": 29031516,
+				"max": 57968032,
+				"count": 17,
+				"isMedian": false
+			}, {
+				"min": 57968032,
+				"max": 86904548,
+				"count": 10,
+				"isMedian": false
+			}, {
+				"min": 86904548,
+				"max": 115841064,
+				"count": 7,
+				"isMedian": false
+			}, {
+				"min": 115841064,
+				"max": 144777580,
+				"count": 2,
+				"isMedian": false
+			}, {
+				"min": 144777580,
+				"max": 173714096,
+				"count": 2,
+				"isMedian": false
+			}, {
+				"min": 173714096,
+				"max": 202650612,
+				"count": 1,
+				"isMedian": false
+			}, {
+				"min": 202650612,
+				"max": 231587128,
+				"count": 1,
+				"isMedian": false
+			}, {
+				"min": 231587128,
+				"max": 260523644,
+				"count": 2,
+				"isMedian": false
+			}, {
+				"min": 260523644,
+				"max": 289460160,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 289460160,
+				"max": 318396676,
+				"count": 1,
+				"isMedian": false
+			}, {
+				"min": 318396676,
+				"max": 347333192,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 347333192,
+				"max": 376269708,
+				"count": 1,
+				"isMedian": false
+			}, {
+				"min": 376269708,
+				"max": 405206224,
+				"count": 1,
+				"isMedian": false
+			}, {
+				"min": 405206224,
+				"max": 434142740,
+				"count": 1,
+				"isMedian": false
+			}, {
+				"min": 434142740,
+				"max": 463079256,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 463079256,
+				"max": 492015772,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 492015772,
+				"max": 520952288,
+				"count": 1,
+				"isMedian": false
+			}, {
+				"min": 520952288,
+				"max": 549888804,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 549888804,
+				"max": 578825320,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 578825320,
+				"max": 607761836,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 607761836,
+				"max": 636698352,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 636698352,
+				"max": 665634868,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 665634868,
+				"max": 694571384,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 694571384,
+				"max": 723507900,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 723507900,
+				"max": 752444416,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 752444416,
+				"max": 781380932,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 781380932,
+				"max": 810317448,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 810317448,
+				"max": 839253964,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 839253964,
+				"max": 868190480,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 868190480,
+				"max": 897126996,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 897126996,
+				"max": 926063512,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 926063512,
+				"max": 955000028,
+				"count": 1,
+				"isMedian": false
+			}],
+			"stats": {
+				"minimumCount": 0,
+				"maximumCount": 228,
+				"maximumValue": 955000000,
+				"minimumValue": 95000,
+				"median": 2100000
+			},
+			"title": "Project by Price",
+			"color": "#8AD069"
+		}, {
+			"bins": [{
+				"min": 0.02,
+				"max": 4.02,
+				"count": 34,
+				"isMedian": false
+			}, {
+				"min": 4.02,
+				"max": 8.02,
+				"count": 14,
+				"isMedian": false
+			}, {
+				"min": 8.02,
+				"max": 12.02,
+				"count": 25,
+				"isMedian": true
+			}, {
+				"min": 12.02,
+				"max": 16.02,
+				"count": 20,
+				"isMedian": false
+			}, {
+				"min": 16.02,
+				"max": 20.02,
+				"count": 2,
+				"isMedian": false
+			}, {
+				"min": 20.02,
+				"max": 24.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 24.02,
+				"max": 28.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 28.02,
+				"max": 32.019999999999996,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 32.02,
+				"max": 36.02,
+				"count": 1,
+				"isMedian": false
+			}, {
+				"min": 36.02,
+				"max": 40.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 40.02,
+				"max": 44.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 44.02,
+				"max": 48.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 48.02,
+				"max": 52.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 52.02,
+				"max": 56.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 56.02,
+				"max": 60.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 60.02,
+				"max": 64.02000000000001,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 64.02,
+				"max": 68.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 68.02,
+				"max": 72.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 72.02,
+				"max": 76.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 76.02,
+				"max": 80.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 80.02,
+				"max": 84.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 84.02,
+				"max": 88.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 88.02,
+				"max": 92.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 92.02,
+				"max": 96.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 96.02,
+				"max": 100.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 100.02,
+				"max": 104.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 104.02,
+				"max": 108.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 108.02,
+				"max": 112.02,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 112.02,
+				"max": 116.02,
+				"count": 1,
+				"isMedian": false
+			}],
+			"stats": {
+				"minimumCount": 0,
+				"maximumCount": 34,
+				"maximumValue": "115.84",
+				"minimumValue": "0.02",
+				"median": 8.355
+			},
+			"title": "Project by Estimated FSR",
+			"color": "#8D7FF8"
+		}, {
+			"bins": [{
+				"min": 1,
+				"max": 4,
+				"count": 32,
+				"isMedian": false
+			}, {
+				"min": 4,
+				"max": 7,
+				"count": 10,
+				"isMedian": false
+			}, {
+				"min": 7,
+				"max": 10,
+				"count": 7,
+				"isMedian": true
+			}, {
+				"min": 10,
+				"max": 13,
+				"count": 7,
+				"isMedian": false
+			}, {
+				"min": 13,
+				"max": 16,
+				"count": 12,
+				"isMedian": false
+			}, {
+				"min": 16,
+				"max": 19,
+				"count": 7,
+				"isMedian": false
+			}, {
+				"min": 19,
+				"max": 22,
+				"count": 5,
+				"isMedian": false
+			}, {
+				"min": 22,
+				"max": 25,
+				"count": 5,
+				"isMedian": false
+			}, {
+				"min": 25,
+				"max": 28,
+				"count": 4,
+				"isMedian": false
+			}, {
+				"min": 28,
+				"max": 31,
+				"count": 2,
+				"isMedian": false
+			}, {
+				"min": 31,
+				"max": 34,
+				"count": 2,
+				"isMedian": false
+			}, {
+				"min": 34,
+				"max": 37,
+				"count": 2,
+				"isMedian": false
+			}, {
+				"min": 37,
+				"max": 40,
+				"count": 1,
+				"isMedian": false
+			}, {
+				"min": 40,
+				"max": 43,
+				"count": 2,
+				"isMedian": false
+			}, {
+				"min": 43,
+				"max": 46,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 46,
+				"max": 49,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 49,
+				"max": 52,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 52,
+				"max": 55,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 55,
+				"max": 58,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 58,
+				"max": 61,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 61,
+				"max": 64,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 64,
+				"max": 67,
+				"count": 1,
+				"isMedian": false
+			}, {
+				"min": 67,
+				"max": 70,
+				"count": 1,
+				"isMedian": false
+			}, {
+				"min": 70,
+				"max": 73,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 73,
+				"max": 76,
+				"count": 0,
+				"isMedian": false
+			}, {
+				"min": 76,
+				"max": 79,
+				"count": 1,
+				"isMedian": false
+			}],
+			"stats": {
+				"minimumCount": 0,
+				"maximumCount": 32,
+				"maximumValue": "78.000",
+				"minimumValue": "1.000",
+				"median": "7.000"
+			},
+			"title": "Project by Storeys",
+			"color": "#F38354"
+		}]
+	}
+}

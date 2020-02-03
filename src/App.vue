@@ -32,9 +32,13 @@ export default {
   },
   async created() {
     this.$store.commit('setLoading', true)
-    // simulate Ajax request with delay
-    await new Promise(resolve => setTimeout(resolve, 1500))
-    await this.$store.dispatch('seedData', this.data)
+    try {
+      // simulate Ajax request with delay
+      await new Promise(resolve => setTimeout(resolve, 2500))
+      await this.$store.dispatch('seedData', this.data)
+    } catch (error) {
+      throw error
+    }
     this.$store.commit('setLoading', false)
   },
   methods: {}

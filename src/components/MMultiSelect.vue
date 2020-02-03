@@ -38,6 +38,8 @@ export default {
   computed: {
     selection: {
       get() {
+        if (!Object.entries(this.$store.state.selectedProjects).length) return
+
         let selectedProjectTitles = []
         for (const value of Object.values(this.$store.state.selectedProjects)) {
           if (value.selected) {

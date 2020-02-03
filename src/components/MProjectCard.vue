@@ -21,6 +21,7 @@ export default {
   computed: {
     selected: {
       get() {
+        if (!Object.entries(this.$store.state.selectedProjects).length) return
         return this.$store.state.selectedProjects[this.project['Project ID']]
           .selected
       },
