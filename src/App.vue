@@ -1,31 +1,30 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <div>
-      <p>
-        If Ant-Design-Vue is successfully added to this project, you'll see an
-        <code v-text="'<a-button>'"></code>
-        below
-      </p>
-      <a-button type="primary">Primary</a-button>
-    </div>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="m-app">
+    <m-sidebar :data="data" />
+    <!-- <m-mapbox-map /> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MSidebar from './components/MSidebar.vue'
+import rawData from '@/assets/json/testBlob.json'
 
 export default {
   name: 'app',
+  data() {
+    return {
+      data: rawData
+    }
+  },
   components: {
-    HelloWorld
-  }
+    MSidebar
+  },
+  methods: {}
 }
 </script>
 
 <style>
-#app {
+#m-app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
