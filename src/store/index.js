@@ -5,7 +5,8 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    selectedProjects: {}
+    selectedProjects: {},
+    isLoading: false
   },
   mutations: {
     update(state, { prop, val }) {
@@ -15,6 +16,9 @@ export default new Vuex.Store({
       console.log(selectionState)
       if (state.selectedProjects[projectId])
         Vue.set(state.selectedProjects[projectId], 'selected', selectionState)
+    },
+    setLoading(state, value) {
+      state.isLoading = value
     }
   },
   actions: {
