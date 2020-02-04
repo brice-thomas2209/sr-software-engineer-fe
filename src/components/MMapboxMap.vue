@@ -89,6 +89,7 @@ export default {
   height: 100%;
 
   .mapboxgl-popup-content {
+    z-index: 99;
     h4 {
       margin-top: 5px;
     }
