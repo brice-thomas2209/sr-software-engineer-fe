@@ -1,7 +1,7 @@
 import { Switch } from 'ant-design-vue'
 import MProjectCard from '@/components/MProjectCard'
 import { Store } from 'vuex-mock-store'
-import { mount, createLocalVue  } from '@vue/test-utils'
+import { mount, createLocalVue } from '@vue/test-utils'
 import { mutations } from '@/store'
 import Antd from 'ant-design-vue'
 import projectFaker from '../faker/project.json'
@@ -30,9 +30,11 @@ describe('MProjectCard', () => {
       }
     })
   })
-  
+
   it('Title of the card should match project prop', () => {
-    expect(component.find('.ant-card-head-title').element.innerHTML).toBe(projectFaker.Title)
+    expect(component.find('.ant-card-head-title').element.innerHTML).toBe(
+      projectFaker.Title
+    )
   })
 
   it('Switch is active when store value is selected', () => {

@@ -1,17 +1,17 @@
 import MMapboxMap from '@/components/MMapboxMap'
 import { Store } from 'vuex-mock-store'
-import { mount, createLocalVue  } from '@vue/test-utils'
+import { mount, createLocalVue } from '@vue/test-utils'
 import { mutations } from '@/store'
-import { MglMap, MglMarker } from 'vue-mapbox'
+import { MglMap } from 'vue-mapbox'
 import projectFaker from '../faker/project.json'
 import selectedProjectsFaker from '../faker/selectedProjects.json'
 import geojsonFaker from '../faker/geojson.json'
 require('mapbox-gl')
 
-window.URL.createObjectURL = function() {};
+window.URL.createObjectURL = function() {}
 
 jest.mock('mapbox-gl', () => ({
-  MMapboxMap: () => ({}),
+  MMapboxMap: () => ({})
 }))
 
 const store = new Store({
@@ -35,9 +35,11 @@ describe('MMapboxMap', () => {
   it('markersFilter is being when project is selected', () => {
     let projectId = projectFaker['Project ID']
     store.state.selectedProjects[projectId].selected = true
-    expect(component.vm.markersFilter.filter(m => m.properties.id === projectId).length).toBeTruthy()
+    expect(
+      component.vm.markersFilter.filter(m => m.properties.id === projectId)
+        .length
+    ).toBeTruthy()
     console.log(component.vm.markersFilter.length)
     console.log(component.find(MglMap))
   })
-
 })

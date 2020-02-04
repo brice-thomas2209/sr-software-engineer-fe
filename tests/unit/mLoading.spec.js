@@ -1,7 +1,7 @@
 import { Spin } from 'ant-design-vue'
 import MLoading from '@/components/MLoading'
 import { Store } from 'vuex-mock-store'
-import { shallowMount, createLocalVue  } from '@vue/test-utils'
+import { shallowMount, createLocalVue } from '@vue/test-utils'
 import Antd from 'ant-design-vue'
 
 // create an extended `Vue` constructor
@@ -32,7 +32,6 @@ describe('MLoading', () => {
     expect(component.find('.m-loading').isVisible()).toBeTruthy()
   })
 
-  
   it('should not render spinner if state isLoading is false', () => {
     store.state.isLoading = false
     expect(component.find('.m-loading').isVisible()).toBeFalsy()
