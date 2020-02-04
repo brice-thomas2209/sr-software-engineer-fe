@@ -88,6 +88,12 @@ export default {
   width: 100%;
   height: 100%;
 
+  .mapboxgl-popup-content {
+    h4 {
+      margin-top: 5px;
+    }
+  }
+
   .mapboxgl-control-container {
     display: block;
     z-index: 99;
@@ -116,9 +122,6 @@ export default {
       transform: translate(-50%, -50%);
       // box-shadow: 0 0 6px rgba(1, 1, 1, 0.2);
       z-index: 3;
-    }
-    h4 {
-      margin-top: 5px;
     }
   }
 }
