@@ -51,7 +51,7 @@ Note that you might have to install Cypress to run e2e tests. You can follow the
 
 ## Core Packages
 * [Vue Ant Design](Vue Ant Design)
-# [Vue-Mapbox](https://github.com/soal/vue-mapbox)
+* [Vue-Mapbox](https://github.com/soal/vue-mapbox)
 
 ## Author
 Email: brice.thomas2209@gmail.com
