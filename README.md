@@ -44,7 +44,7 @@ Note that you might have to install Cypress to run e2e tests. You can follow the
 
 ## TODO
 
-* Have a closer look at responsivity
+* Have a closer look at responsivity, replace media query with breakpoint-sass
 * Need to work on accesibility and add focusable element and skip to ui
 * Refine the UI to make selection easier
 * Add more information on the project card and marker popup

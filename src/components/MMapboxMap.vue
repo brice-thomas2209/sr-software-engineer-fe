@@ -125,4 +125,9 @@ export default {
     }
   }
 }
+@media only screen and (max-width: 767px) {
+  .m-mapbox-map {
+    height: 60vh;
+  }
+}
 </style>

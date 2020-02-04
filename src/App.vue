@@ -56,4 +56,12 @@ export default {
     height: 100%;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  #m-app {
+    .full-height {
+      height: auto;
+    }
+  }
+}
 </style>

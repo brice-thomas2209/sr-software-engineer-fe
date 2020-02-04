@@ -52,4 +52,10 @@ export default {
   height: 100vh;
   z-index: 2;
 }
+
+@media only screen and (max-width: 767px) {
+  .m-sidebar {
+    height: 40vh;
+  }
+}
 </style>
