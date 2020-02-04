@@ -32,6 +32,7 @@ export default {
   },
   computed: {
     projectListFilter() {
+      // only show project whose string match the title
       return this.data.features.filter(p =>
         p.properties.project.Title.toLowerCase().includes(
           this.search.toLowerCase()

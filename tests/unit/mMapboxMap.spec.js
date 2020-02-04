@@ -8,12 +8,15 @@ import selectedProjectsFaker from '../faker/selectedProjects.json'
 import geojsonFaker from '../faker/geojson.json'
 require('mapbox-gl')
 
+// set up to allow to allow jest to mock mapbox without UI
 window.URL.createObjectURL = function() {}
 
+// Setting up custom jest mock for mapbox-gl
 jest.mock('mapbox-gl', () => ({
   MMapboxMap: () => ({})
 }))
 
+// Initialise the store
 const store = new Store({
   state: { selectedProjects: selectedProjectsFaker },
   mutations
@@ -21,6 +24,7 @@ const store = new Store({
 
 describe('MMapboxMap', () => {
   let component
+  // mount the component to test in every test
   beforeEach(() => {
     component = mount(MMapboxMap, {
       propsData: {
@@ -32,14 +36,12 @@ describe('MMapboxMap', () => {
     })
   })
 
-  it('markersFilter is being when project is selected', () => {
+  it('markers are being returned when project is selected in store', () => {
     let projectId = projectFaker['Project ID']
     store.state.selectedProjects[projectId].selected = true
     expect(
       component.vm.markersFilter.filter(m => m.properties.id === projectId)
         .length
     ).toBeTruthy()
-    console.log(component.vm.markersFilter.length)
-    console.log(component.find(MglMap))
   })
 })

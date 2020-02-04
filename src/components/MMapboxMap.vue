@@ -43,9 +43,11 @@ export default {
   },
   data() {
     return {
+      // access token account brice.thomas2209@gmail.com countact email if API Key is invalid
       accessToken:
         'pk.eyJ1IjoiYnJpY2UtdGhvbWFzMjIwOSIsImEiOiJjazY2YzRybmUwZmIyM2xtaTZhdDNzYWd1In0.Ns6Lp5pF7lsXMvlPnd9w7A',
       mapStyle: 'mapbox://styles/mapbox/light-v9',
+      //cordinates of sydney Australia
       coordinatesSydney: [151.2073, -33.8708]
     }
   },

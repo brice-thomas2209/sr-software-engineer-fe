@@ -19,5 +19,5 @@ module.exports = {
       ]
     }
   },
-  lintOnSave: true
+  lintOnSave: true // automatic linting set to false if not required
 }

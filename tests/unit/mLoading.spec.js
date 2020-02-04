@@ -6,15 +6,18 @@ import Antd from 'ant-design-vue'
 
 // create an extended `Vue` constructor
 const localVue = createLocalVue()
+
 // install plugins as normal
 localVue.use(Antd)
 
+// Initialise the store
 const store = new Store({
   state: { isLoading: true }
 })
 
 describe('MLoading', () => {
   let component
+  // mount the component to test in every test
   beforeEach(() => {
     component = shallowMount(MLoading, {
       localVue,

@@ -9,6 +9,7 @@ import selectedProjectsFaker from '../faker/selectedProjects.json'
 
 // create an extended `Vue` constructor
 const localVue = createLocalVue()
+
 // install plugins as normal
 localVue.use(Antd)
 
@@ -19,6 +20,7 @@ const store = new Store({
 
 describe('MProjectCard', () => {
   let component
+  // mount the component to test in every test and seed the prop
   beforeEach(() => {
     component = mount(MProjectCard, {
       localVue,
@@ -37,10 +39,10 @@ describe('MProjectCard', () => {
     )
   })
 
-  it('Switch is active when store value is selected', () => {
+  it('Switch should be active when store value is selected', () => {
     let projectId = projectFaker['Project ID']
+    // set the projectId state
     store.state.selectedProjects[projectId].selected = true
-
     expect(component.find(Switch).props('checked')).toBeTruthy()
   })
 })

@@ -16,13 +16,13 @@
 import MSidebar from './components/MSidebar.vue'
 import MMapboxMap from './components/MMapboxMap'
 import MLoading from './components/MLoading'
-import rawData from '@/assets/json/testBlob3.json'
+import rawData from '@/assets/json/testBlob.json'
 
 export default {
   name: 'app',
   data() {
     return {
-      data: rawData
+      data: rawData // get the rawData from the document
     }
   },
   components: {
@@ -40,8 +40,7 @@ export default {
       throw error
     }
     this.$store.commit('setLoading', false)
-  },
-  methods: {}
+  }
 }
 </script>
 

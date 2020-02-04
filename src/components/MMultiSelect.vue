@@ -38,9 +38,11 @@ export default {
   computed: {
     selection: {
       get() {
+        // check if there are any selected projects
         if (!Object.entries(this.$store.state.selectedProjects).length) return
 
         let selectedProjectTitles = []
+        // select all selected projects titles
         for (const value of Object.values(this.$store.state.selectedProjects)) {
           if (value.selected) {
             selectedProjectTitles.push(value.title)
@@ -48,16 +50,18 @@ export default {
         }
         return selectedProjectTitles
       },
-      set(newValue) {
-        for (const [key, value] of Object.entries(
+      set(value) {
+        for (const [key, project] of Object.entries(
           this.$store.state.selectedProjects
         )) {
-          if (value.selected && !newValue.includes(value.title)) {
+          if (project.selected && !value.includes(project.title)) {
+            // remove projects that are not in multi select
             this.setProjectSelection({
               projectId: key,
               selectionState: false
             })
-          } else if (!value.selected && newValue.includes(value.title)) {
+          } else if (!project.selected && value.includes(project.title)) {
+            // add projects that are in multi select
             this.setProjectSelection({
               projectId: key,
               selectionState: true
@@ -69,8 +73,8 @@ export default {
   },
   methods: {
     ...mapMutations(['setProjectSelection']),
-    onSearch(value) {
-      this.$emit('update:search', value)
+    onSearch(searchString) {
+      this.$emit('update:search', searchString)
     },
     onBlur() {
       this.$emit('update:search', '')

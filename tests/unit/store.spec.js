@@ -2,6 +2,7 @@ import { mutations, actions } from '@/store'
 import projectFaker from '../faker/project.json'
 import selectedProjectsFaker from '../faker/selectedProjects.json'
 
+// Deconstruct the mutations for testing
 const { setProjectSelection, setLoading } = mutations
 
 describe('mutations', () => {
