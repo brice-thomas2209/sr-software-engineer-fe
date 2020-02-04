@@ -17,9 +17,6 @@
         />
         <MglPopup>
           <h4>{{ f.properties.project.Title }}</h4>
-          <ul>
-            <li></li>
-          </ul>
         </MglPopup>
       </MglMarker>
     </MglMap>
@@ -55,7 +52,7 @@ export default {
   computed: {
     ...mapState(['selectedProjects']),
     markersFilter() {
-      if (!Object.entries(this.selectedProjects).length) return
+      if (!Object.entries(this.selectedProjects).length) return []
 
       return this.data.features.filter(
         f => this.selectedProjects[f.properties.id].selected
@@ -117,6 +114,9 @@ export default {
       transform: translate(-50%, -50%);
       // box-shadow: 0 0 6px rgba(1, 1, 1, 0.2);
       z-index: 3;
+    }
+    h4 {
+      margin-top: 5px;
     }
   }
 }
